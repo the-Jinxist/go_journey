@@ -10,3 +10,5 @@ Started writing Go. Was unable to import external libraries. After many tries an
 - Learnt about variable declaration, different data types and types of variable initialization
 - Also learnt about go naming conventions, another thing to look out for.
 - Conversion of data types
+- Operators in Go
+- Learnt conditional and control structures i.e if-else and switch

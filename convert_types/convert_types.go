@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 	"strconv"
 )
 
@@ -29,5 +30,22 @@ func main() {
 
 	var intToString string = strconv.FormatInt(34, 16)
 	fmt.Println("string from int: ", intToString)
+
+	//Converting from int to another base int, float to another base float, int to float(and vice versa)
+	//int to int64
+	var normalInt int16 = 10
+	var newInt64 int64 = int64(normalInt)
+
+	fmt.Println(reflect.TypeOf(newInt64))
+
+	var normalFloat float32 = 4.56
+	var newFloat64 = float64(normalFloat)
+
+	fmt.Println(reflect.TypeOf(newFloat64))
+
+	//int to float, also works vice versa too bruv
+	var inter = 7
+	var convertedFloat = float64(inter)
+	fmt.Println(reflect.TypeOf(convertedFloat))
 
 }
