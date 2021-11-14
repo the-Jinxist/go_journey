@@ -6,9 +6,18 @@ I will be documenting my jourmey through learning GO in this repository, go help
 
 Started writing Go. Was unable to import external libraries. After many tries and pulling my hair out, it finally worked.
 
-#### Learned: variables
+#### Learned:
 - Learnt about variable declaration, different data types and types of variable initialization
 - Also learnt about go naming conventions, another thing to look out for.
 - Conversion of data types
 - Operators in Go
 - Learnt conditional and control structures i.e if-else and switch
+
+### Day 2
+Learning about strange Go stuff. Somehow exciting
+
+#### Learned:
+- For loops.
+- Learned functions, anonymous functions, higher-order functions. Also saw that functions that starts with an uppercase letter can be exported and ones with lowercase are not exported.
+- Deferred function calls, worth mentioning, make sure a function is called when it's finished
+
