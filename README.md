@@ -20,4 +20,5 @@ Learning about strange Go stuff. Somehow exciting
 - For loops.
 - Learned functions, anonymous functions, higher-order functions. Also saw that functions that starts with an uppercase letter can be exported and ones with lowercase are not exported.
 - Deferred function calls, worth mentioning, make sure a function is called when it's finished
+- Panic! at the golang. Learnt about panic and recovery
 
