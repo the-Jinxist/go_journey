@@ -22,3 +22,10 @@ Learning about strange Go stuff. Somehow exciting
 - Deferred function calls, worth mentioning, make sure a function is called when it's finished
 - Panic! at the golang. Learnt about panic and recovery
 
+### Day 3
+
+#### Learned:
+- Arrays: Declaring, Initializing.
+- Filtering arrays and looping through them.
+- Slices: Declarind and Initializing them. They seem like weird stuff to be honest.
+
