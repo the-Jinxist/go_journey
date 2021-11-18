@@ -29,3 +29,9 @@ Learning about strange Go stuff. Somehow exciting
 - Filtering arrays and looping through them.
 - Slices: Declarind and Initializing them. They seem like weird stuff to be honest.
 
+### Day 4
+
+#### Learned:
+- Maps in Golang
+- Structs: Which has to be my favourite part about Golang so far. Syntax is very funky. I love it!
+
