@@ -35,3 +35,7 @@ Learning about strange Go stuff. Somehow exciting
 - Maps in Golang
 - Structs: Which has to be my favourite part about Golang so far. Syntax is very funky. I love it!
 
+### Day 5
+
+#### Learned:
+- Interfaces and self-defined types that are aren't interfaces
