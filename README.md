@@ -56,3 +56,9 @@ Learning about strange Go stuff. Somehow exciting
 #### Learned:
 - Started initial work with rest API using the [mux library](github.com/gorilla/mux)
 - Created routes for different http methods
+
+### Day 7
+
+#### Learned:
+- Implemented the addBooks, updateBooks and deleteBooks endpoint
+- Have a basic understanding of routes
