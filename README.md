@@ -62,3 +62,17 @@ Learning about strange Go stuff. Somehow exciting
 #### Learned:
 - Implemented the addBooks, updateBooks and deleteBooks endpoint
 - Have a basic understanding of routes
+
+### Day 8
+
+#### Learned:
+- Working with postgres, setting up db and gotenv:
+    - Side note: .env files must be in the same folder as the file that is accessing it apparently. Never had a normal relationship with .env files mehn
+- Implemented `getBooks` endpoint by actually querying the postgres db
+
+### Day 9
+
+#### Learned:
+- Implemented the rest of the endpoints: `addBooks`, `updateBook`, `removeBook`, `getBook`
+- Saw how various sql commands are executed some with `db.QueryRow`, `db.Query` or `db.Exec`
+- Also battled with pointers for a while lmao
