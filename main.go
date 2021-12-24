@@ -9,6 +9,7 @@ import (
 	"go_journey/controllers"
 	"go_journey/driver"
 
+	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/subosito/gotenv"
 )
@@ -35,6 +36,7 @@ func main() {
 	router.HandleFunc("/books/{id}", booksController.RemoveBook(db)).Methods("DELETE")
 
 	fmt.Println("Server is running on port 8000")
-	log.Fatal(http.ListenAndServe(":8000", router))
+	log.Fatal(http.ListenAndServe(":8000", handlers.CORS(handlers.AllowedHeaders([]string{"X-Requested-With", "Content-Type", "Authorization"}), handlers.AllowedMethods([]string{"GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS"}),
+		handlers.AllowedOrigins([]string{"*"}))(router)))
 
 }
